@@ -2,6 +2,7 @@ import React from 'react';
 import { IoMailOpenOutline } from "react-icons/io5";
 import { BiPhone } from "react-icons/bi";
 import { FiFacebook } from "react-icons/fi";
+import Search from './Search';
 
 function Header() {
     return (
@@ -46,6 +47,7 @@ function Header() {
                                 <li class="nav-icon has-icon"> <a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false"> <i class="icon-menu" ></i> </a></li>
                             </ul>
                         </div>
+                        <Search />
                     </div>
                 </div>
             </div>
