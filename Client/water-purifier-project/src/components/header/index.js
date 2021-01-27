@@ -44,7 +44,7 @@ function Header() {
                         <div
                             class="flex-col show-for-medium flex-left">
                             <ul class="mobile-nav nav nav-left ">
-                                <li class="nav-icon has-icon"> <a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false"> <i class="icon-menu" ></i> </a></li>
+                                <li class="nav-icon has-icon"> <i class="icon-menu" ></i></li>
                             </ul>
                         </div>
                         <Search />

@@ -1,9 +1,13 @@
 import './App.css';
+import ListCategory from './components/categories/ListCategory';
 import Header from './components/header';
 
 function App() {
   return (
-    <Header/>
+    <div className='container'>
+      <Header></Header>
+      <ListCategory></ListCategory>
+    </div>
   );
 }
 
