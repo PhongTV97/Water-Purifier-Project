@@ -92,11 +92,17 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
-p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+.text-p {
+  font-size: 14px;
 }
-
 .navbar-height {
     height: 40px;
+}
+
+.products-border {
+  border-bottom: 1px solid var(--clr-primary-5);
+}
+
+.products-title {
+  background-color: var(--clr-primary-5)
 }
